@@ -1,5 +1,30 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
+    background: green;
+}
+
+
+#card{ 
     background: white;
+    height: 400px;
+    width: 250px;
+    margin: auto;
+    margin-top:20px;
+    border-radius: 15px;
+    box-shadow: 9px 10px 5px 0px;
+    border: solid 2px black;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 3rem;
+}
+.valor{ 
+    display:flex;
+    justify-content:center;
+}
+
+.figuraInvertido {
+    transform: rotate(180deg);
+
 }
